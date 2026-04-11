@@ -13,6 +13,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.middleware("http")
+async def add_cors_header_always(request: Request, call_next):
+    response = await call_next(request)
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    return response
+
+
 GENDERIZE_URL = "https://api.genderize.io"
 
 
