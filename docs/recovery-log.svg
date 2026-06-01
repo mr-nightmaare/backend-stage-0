@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-label="Terminal screenshot showing recovery log">
+  <rect width="980" height="360" fill="#111827"/>
+  <rect x="0" y="0" width="980" height="38" fill="#1f2937"/>
+  <circle cx="22" cy="19" r="6" fill="#ef4444"/>
+  <circle cx="44" cy="19" r="6" fill="#f59e0b"/>
+  <circle cx="66" cy="19" r="6" fill="#10b981"/>
+  <text x="92" y="24" fill="#d1d5db" font-family="monospace" font-size="14">append-only-event-store - restart recovery</text>
+  <text x="28" y="82" fill="#9ca3af" font-family="monospace" font-size="18">$ PORT=3100 npm run start:prod</text>
+  <text x="28" y="122" fill="#e5e7eb" font-family="monospace" font-size="18">&gt; append-only-event-store@1.0.0 start:prod</text>
+  <text x="28" y="154" fill="#e5e7eb" font-family="monospace" font-size="18">&gt; node dist/main.js</text>
+  <text x="28" y="206" fill="#e5e7eb" font-family="monospace" font-size="18">[Nest] LOG [RouterExplorer] Mapped {/events/:id, GET} route</text>
+  <text x="28" y="242" fill="#34d399" font-family="monospace" font-size="22" font-weight="700">Recovered 3 events from events.log</text>
+  <text x="28" y="284" fill="#e5e7eb" font-family="monospace" font-size="18">[Nest] LOG [NestApplication] Nest application successfully started</text>
+  <text x="28" y="318" fill="#93c5fd" font-family="monospace" font-size="18">Event store listening on http://localhost:3100</text>
+</svg>
